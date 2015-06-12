@@ -49,8 +49,8 @@ numHashes = 10;
 # You can run this code for different portions of the dataset.
 # It ships with data set sizes 100, 1000, 2500, and 10000.
 numDocs = 1000
-dataFile = "./Plagiarism/articles_" + str(numDocs) + ".train"
-truthFile = "./Plagiarism/articles_" + str(numDocs) + ".truth"
+dataFile = "./data/articles_" + str(numDocs) + ".train"
+truthFile = "./data/articles_" + str(numDocs) + ".truth"
 
 # =============================================================================
 #                  Parse The Ground Truth Tables
